@@ -3,7 +3,7 @@ import numpy as np
 
 cap = cv2.VideoCapture(0)
 back = cv2.imread('./image.jpg')
-kernel = np.ones((5,5),np.uint8)
+kernel = np.ones((15,15),np.uint8)
 
 while cap.isOpened():
     # take each frame
